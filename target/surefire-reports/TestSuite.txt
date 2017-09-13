@@ -1,0 +1,272 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 75, Failures: 23, Errors: 0, Skipped: 0, Time elapsed: 1,565.996 sec <<< FAILURE! - in TestSuite
+xemthongtinnhankhau(quanlyhogiadinh.NhanKhauThemTest)  Time elapsed: 6.958 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='myTtCaNhanLabel']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.lAsTc2rh3K3c, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5404.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: fdbd9256-519c-440c-bb83-1c6599bc3017
+*** Element info: {Using=xpath, value=.//*[@id='myTtCaNhanLabel']}
+	at quanlyhogiadinh.NhanKhauThemTest.xemthongtinnhankhau(NhanKhauThemTest.java:80)
+
+suathongtinnhankhau(quanlyhogiadinh.NhanKhauThemTest)  Time elapsed: 6.28 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='myTtCaNhanLabel']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.lAsTc2rh3K3c, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5404.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: fdbd9256-519c-440c-bb83-1c6599bc3017
+*** Element info: {Using=xpath, value=.//*[@id='myTtCaNhanLabel']}
+	at quanlyhogiadinh.NhanKhauThemTest.suathongtinnhankhau(NhanKhauThemTest.java:84)
+
+nhankhaudangduocxulylambome(quanlyhogiadinh.NhanKhauThemTest)  Time elapsed: 3.046 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/div/div[2]/div/div/div/div/section/form/div[13]/div[2]/div/div/span/button[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.lAsTc2rh3K3c, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5404.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: fdbd9256-519c-440c-bb83-1c6599bc3017
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/div/div[2]/div/div/div/div/section/form/div[13]/div[2]/div/div/span/button[1]}
+	at quanlyhogiadinh.NhanKhauThemTest.nhankhaudangduocxulylambome(NhanKhauThemTest.java:88)
+
+suathongtinthanhcong(quanlyhogiadinh.NhanKhauThemTest)  Time elapsed: 7.029 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/div/div[2]/div/div/div/div/section/form/div[18]/button[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.lAsTc2rh3K3c, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5404.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: fdbd9256-519c-440c-bb83-1c6599bc3017
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/div/div[2]/div/div/div/div/section/form/div[18]/button[1]}
+	at quanlyhogiadinh.NhanKhauThemTest.suathongtinthanhcong(NhanKhauThemTest.java:92)
+
+themoinhankhau(themdulieu.ThemDuLieuNhanKhauTest)  Time elapsed: 28.643 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/form/div[1]/div[2]/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.LztceaQY0F3m, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3400.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 5e958257-b947-49e4-866b-3947b54f5afa
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/form/div[1]/div[2]/input}
+	at themdulieu.ThemDuLieuNhanKhauTest.themoinhankhau(ThemDuLieuNhanKhauTest.java:29)
+
+themoinhankhau2(themdulieu.ThemDuLieuNhanKhauTest)  Time elapsed: 12.839 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/div/div[2]/div/div/div/div[2]/section[1]/form/div[4]/div/address-picker-code/div/div[1]/div/ul/li/div[4]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.LztceaQY0F3m, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3400.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 5e958257-b947-49e4-866b-3947b54f5afa
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/div/div[2]/div/div/div/div[2]/section[1]/form/div[4]/div/address-picker-code/div/div[1]/div/ul/li/div[4]}
+	at themdulieu.ThemDuLieuNhanKhauTest.themoinhankhau2(ThemDuLieuNhanKhauTest.java:39)
+
+themoinhankhau3(themdulieu.ThemDuLieuNhanKhauTest)  Time elapsed: 3.019 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[2]/div[2]/button[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.LztceaQY0F3m, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3400.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 5e958257-b947-49e4-866b-3947b54f5afa
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[2]/div[2]/button[1]}
+	at themdulieu.ThemDuLieuNhanKhauTest.themoinhankhau3(ThemDuLieuNhanKhauTest.java:44)
+
+themoinhankhau4(themdulieu.ThemDuLieuNhanKhauTest)  Time elapsed: 3.043 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[2]/div[2]/button[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.LztceaQY0F3m, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3400.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 5e958257-b947-49e4-866b-3947b54f5afa
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[2]/div[2]/button[1]}
+	at themdulieu.ThemDuLieuNhanKhauTest.themoinhankhau4(ThemDuLieuNhanKhauTest.java:49)
+
+chuachonnhankhau(quanlyhogiadinh.NhanKhauThemVaoHoKhauTest)  Time elapsed: 18.729 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[2]/div[2]/div[2]/button[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[2]/div[2]/div[2]/button[1]}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.chuachonnhankhau(NhanKhauThemVaoHoKhauTest.java:29)
+
+chuachonloaiquanhe(quanlyhogiadinh.NhanKhauThemVaoHoKhauTest)  Time elapsed: 6.014 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.chuachonloaiquanhe(NhanKhauThemVaoHoKhauTest.java:33)
+
+nhankhaudanglachucuahokhac(quanlyhogiadinh.NhanKhauThemVaoHoKhauTest)  Time elapsed: 3.909 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='field_loaiQh']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='field_loaiQh']}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.nhankhaudanglachucuahokhac(NhanKhauThemVaoHoKhauTest.java:37)
+
+nhankhaudangcoquanhevoihokhac(quanlyhogiadinh.NhanKhauThemVaoHoKhauTest)  Time elapsed: 5.066 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.nhankhaudangcoquanhevoihokhac(NhanKhauThemVaoHoKhauTest.java:41)
+
+themMoiNkVaoHkThanhCong(quanlyhogiadinh.NhanKhauThemVaoHoKhauTest)  Time elapsed: 3.073 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.themMoiNkVaoHkThanhCong(NhanKhauThemVaoHoKhauTest.java:45)
+
+soanhnhankhau(quanlyhogiadinh.NhanKhauThemVaoHoKhauTest)  Time elapsed: 2.936 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[1]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[1]/a}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.soanhnhankhau(NhanKhauThemVaoHoKhauTest.java:49)
+
+nhanKhauNaydaTonTai(quanlyhogiadinh.NhanKhauThemVaoHoKhauTest)  Time elapsed: 6.013 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[1]/div/div/a/span[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[1]/div/div/a/span[2]}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.nhanKhauNaydaTonTai(NhanKhauThemVaoHoKhauTest.java:53)
+
+suathongtinnhankhau(quanlyhogiadinh.NhanKhauThemVaoHoKhauTest)  Time elapsed: 3.046 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[5]/a[1]/i
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[5]/a[1]/i}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.suathongtinnhankhau(NhanKhauThemVaoHoKhauTest.java:57)
+
+xoanhankhau(quanlyhogiadinh.NhanKhauThemVaoHoKhauTest)  Time elapsed: 3.038 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[5]/a[2]/i
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[5]/a[2]/i}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.xoanhankhau(NhanKhauThemVaoHoKhauTest.java:61)
+
+nhanKhauDangLaChuHo(quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test)  Time elapsed: 25.974 sec  <<< FAILURE!
+java.lang.AssertionError: Fale khi click ???c vào button mã h? gia ?ình expected [false] but found [true]
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test.nhanKhauDangLaChuHo(NhanKhauThemVaoHoKhau2Test.java:31)
+
+xoa(quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test)  Time elapsed: 4.064 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[1]/div/ul/li[3]/ul/li[2]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.7zzsVYxKB0KK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6908.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 42196c5e-9c05-4aa2-8e48-33a5b0d882ee
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[1]/div/ul/li[3]/ul/li[2]/a}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test.xoa(NhanKhauThemVaoHoKhau2Test.java:35)
+
+chuachonnhankhau(quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test)  Time elapsed: 4.862 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[1]/div/ul/li[3]/ul/li[1]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.7zzsVYxKB0KK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6908.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 42196c5e-9c05-4aa2-8e48-33a5b0d882ee
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[1]/div/ul/li[3]/ul/li[1]/a}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test.chuachonnhankhau(NhanKhauThemVaoHoKhau2Test.java:40)
+
+nhanKhauKhongLaChuHo(quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test)  Time elapsed: 9.412 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/form/div[2]/div[4]/div/div/table/tbody/tr/td[6]/div/a/i
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.7zzsVYxKB0KK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6908.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 42196c5e-9c05-4aa2-8e48-33a5b0d882ee
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/form/div[2]/div[4]/div/div/table/tbody/tr/td[6]/div/a/i}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test.nhanKhauKhongLaChuHo(NhanKhauThemVaoHoKhau2Test.java:45)
+
+chuaCoDuLieuThayDoi(quanlyhososuckhoe.KhamLapThemTest)  Time elapsed: 3.832 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/form/div[1]/div[1]/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.Zqt8CZdfYny6, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6292.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 6c5d7d19-7761-4ac5-8690-717173c0ae40
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/form/div[1]/div[1]/input}
+	at quanlyhososuckhoe.KhamLapThemTest.chuaCoDuLieuThayDoi(KhamLapThemTest.java:30)
+
+checkMau(quanlyhososuckhoe.KhamLapThemTest)  Time elapsed: 21.089 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='field_ngayKham']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.Zqt8CZdfYny6, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6292.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 6c5d7d19-7761-4ac5-8690-717173c0ae40
+*** Element info: {Using=xpath, value=.//*[@id='field_ngayKham']}
+	at quanlyhososuckhoe.KhamLapThemTest.checkMau(KhamLapThemTest.java:35)
+

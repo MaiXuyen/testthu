@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test1(failed)">
+    <classes>
+      <class name="quanlyhogiadinh.NhanKhauThemTest">
+        <methods>
+          <include name="nhapsaicactruongkhongbatbuoc"/>
+          <include name="themoithanhcong"/>
+          <include name="ktrabotrongtruongbatbuoc"/>
+          <include name="btrongtongiao"/>
+          <include name="btrongdantoc"/>
+          <include name="btrongquoctich"/>
+          <include name="khongchondiachihientilathuongchu"/>
+          <include name="suathongtinnhankhau"/>
+          <include name="suathongtinthanhcong"/>
+          <include name="themNKNgaySinhNhoHonHoacBangNgayHientaiVaLonHonNam1900th2"/>
+          <include name="xoathongtinnhankhau"/>
+          <include name="xemthongtinnhankhau"/>
+          <include name="themNKNhapMoiQuanHeVoiNguoiGiamHo"/>
+          <include name="setup"/>
+          <include name="themNKTreEmDuoi1TuoiNhapTenNguoiGiamHo"/>
+          <include name="ktranhapthieuthontinbatbuoc"/>
+          <include name="ktrabuttondong"/>
+          <include name="nhankhaudangduocxulylambome"/>
+          <include name="themngaysinhsinhlonhonhoacbangnam1990"/>
+        </methods>
+      </class> <!-- quanlyhogiadinh.NhanKhauThemTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test name="Test2(failed)">
+    <classes>
+      <class name="themdulieu.ThemDuLieuNhanKhauTest">
+        <methods>
+          <include name="themoinhankhau"/>
+          <include name="setup"/>
+          <include name="themoinhankhau4"/>
+          <include name="themoinhankhau3"/>
+          <include name="themoinhankhau2"/>
+          <include name="themoinhankhau1"/>
+        </methods>
+      </class> <!-- themdulieu.ThemDuLieuNhanKhauTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test name="Test3(failed)">
+    <classes>
+      <class name="quanlyhogiadinh.HoKhauThemTest">
+        <methods>
+          <include name="xoahokhau"/>
+          <include name="setup"/>
+          <include name="nhapMYTCNbangmotgiatribatki"/>
+          <include name="themoihokhauthanhcong"/>
+          <include name="ktranhankhaudalachucuahokhac"/>
+          <include name="xoathongtinchuho"/>
+          <include name="ktrabtxemchitiet"/>
+          <include name="dodaiqua13kitu"/>
+          <include name="chuanhaptenchuho"/>
+          <include name="ktrabttaomoihokhau"/>
+          <include name="suathongtinchuho"/>
+          <include name="HoKhauThemMoi"/>
+          <include name="chuacodulieuthaydoi"/>
+        </methods>
+      </class> <!-- quanlyhogiadinh.HoKhauThemTest -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test name="Test4(failed)">
+    <classes>
+      <class name="themdulieu.ThemDuLieuHoKhauTest">
+        <methods>
+          <include name="setup"/>
+          <include name="themmoiNKVaoHkThanhCong"/>
+          <include name="themoihokhauthanhcong"/>
+        </methods>
+      </class> <!-- themdulieu.ThemDuLieuHoKhauTest -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+  <test name="Test5(failed)">
+    <classes>
+      <class name="quanlyhogiadinh.NhanKhauThemVaoHoKhauTest">
+        <methods>
+          <include name="themMoiNkVaoHkThanhCong"/>
+          <include name="soanhnhankhau"/>
+          <include name="xoanhankhau"/>
+          <include name="chuachonnhankhau"/>
+          <include name="chuachonloaiquanhe"/>
+          <include name="nhanKhauNaydaTonTai"/>
+          <include name="suathongtinnhankhau"/>
+          <include name="setup"/>
+          <include name="nhankhaudangcoquanhevoihokhac"/>
+          <include name="nhankhaudanglachucuahokhac"/>
+        </methods>
+      </class> <!-- quanlyhogiadinh.NhanKhauThemVaoHoKhauTest -->
+    </classes>
+  </test> <!-- Test5(failed) -->
+  <test name="Test6(failed)">
+    <classes>
+      <class name="quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test">
+        <methods>
+          <include name="setup"/>
+          <include name="xoa"/>
+          <include name="nhanKhauKhongLaChuHo"/>
+          <include name="nhanKhauDangLaChuHo"/>
+          <include name="chuachonnhankhau"/>
+        </methods>
+      </class> <!-- quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test -->
+    </classes>
+  </test> <!-- Test6(failed) -->
+  <test name="Test7(failed)">
+    <classes>
+      <class name="quanlyhososuckhoe.KhamLapThemTest">
+        <methods>
+          <include name="setup"/>
+          <include name="soSanhKhamLap"/>
+        </methods>
+      </class> <!-- quanlyhososuckhoe.KhamLapThemTest -->
+    </classes>
+  </test> <!-- Test7(failed) -->
+  <test name="Test8(failed)">
+    <classes>
+      <class name="quanlyhososuckhoe.LichSuThemTest">
+        <methods>
+          <include name="soLuongPhaiNhapDangSo"/>
+          <include name="ngayKhamKhongDuocNhoHonNgayBatDau"/>
+          <include name="ketQuaKhongDuocDetrong"/>
+          <include name="tenThuocKhongDuocDeTrong"/>
+          <include name="ngayKetThucKhongDuocNhoHonNgayBatDau"/>
+          <include name="tenDichvuKongDuocDeTrong"/>
+          <include name="themMoiLichSuThanhCong"/>
+          <include name="boTrongngaykham"/>
+          <include name="ngayKhamKhongDuocLonHonNgayKetThuc"/>
+          <include name="setup"/>
+          <include name="boTrongNgayKetThuc"/>
+          <include name="boTrongNgayBatDau"/>
+          <include name="soLuongKhongDuocDetrong"/>
+          <include name="ngayKhamKhongDuocLonHonNgayHientai"/>
+          <include name="ngayTaiKhamLonHonNgayKham"/>
+        </methods>
+      </class> <!-- quanlyhososuckhoe.LichSuThemTest -->
+    </classes>
+  </test> <!-- Test8(failed) -->
+  <test name="Test9(failed)">
+    <classes>
+      <class name="quanlyhososuckhoe.TiemChungThemTest">
+        <methods>
+          <include name="themmoiTCNgayHenTiemPhaiLonHonHoacbangNgayNguaChung"/>
+          <include name="themmoiTCVacXinMuiTiemDaTonTai"/>
+          <include name="themmoiTCMuiTiemKhongDuocBotrong"/>
+          <include name="themmoiTCThanhCong"/>
+          <include name="setup"/>
+          <include name="checkMau"/>
+        </methods>
+      </class> <!-- quanlyhososuckhoe.TiemChungThemTest -->
+    </classes>
+  </test> <!-- Test9(failed) -->
+</suite> <!-- Failed suite [Suite] -->

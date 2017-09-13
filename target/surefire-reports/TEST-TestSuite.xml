@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1,565.996" tests="75" errors="0" skipped="0" failures="23">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="LOGONSERVER" value="\\DC02-OS"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_112\jre"/>
+    <property name="TITLE" value="Tomcat"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="CATALINA_HOME" value="C:\Users\ict-os-30\Downloads\apache-tomcat-7.0.79"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\endorsed"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="=::" value="::\"/>
+    <property name="USERDOMAIN" value="VITM"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="JAVA_OPTS" value=" &quot;-Djdk.tls.ephemeralDHKeySize=2048&quot;"/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.version" value="1.8.0_112"/>
+    <property name="JOB_NAME" value="TestQLHSSKCN"/>
+    <property name="COMPUTERNAME" value="ICT-OS-XUYENMT"/>
+    <property name="EXECUTABLE" value="C:\Users\ict-os-30\Downloads\apache-tomcat-7.0.79\bin\catalina.bat"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.name" value="ict-os-30"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 60 Stepping 3, GenuineIntel"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Users\ict-os-30\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/TestQLHSSKCN/32/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-TestQLHSSKCN-32"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main D:\setup\apache-maven-3.5.0 C:\Users\ict-os-30\Downloads\apache-tomcat-7.0.79\webapps\jenkins\WEB-INF\lib\remoting-3.10.jar C:\Users\ict-os-30\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar C:\Users\ict-os-30\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar 56111"/>
+    <property name="JENKINS_SERVER_COOKIE" value="b433b9b1d4fbc252"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_112/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_112\bin;;D:\setup\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_112\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_112\bin;D:\setup\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_112\bin;C:\Users\ict-os-30\AppData\Local\Programs\Git\cmd"/>
+    <property name="java.io.tmpdir" value="C:\Users\ICT-OS~1\AppData\Local\Temp\"/>
+    <property name="APPDATA" value="C:\Users\ict-os-30\AppData\Roaming"/>
+    <property name="user.language" value="en"/>
+    <property name="CATALINA_TMPDIR" value="C:\Users\ict-os-30\Downloads\apache-tomcat-7.0.79\temp"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="JAVA_ENDORSED_DIRS" value="C:\Users\ict-os-30\Downloads\apache-tomcat-7.0.79\endorsed"/>
+    <property name="ACTION" value="start"/>
+    <property name="M2_HOME" value="D:\setup\apache-maven-3.5.0"/>
+    <property name="=C:" value="C:\Users\ict-os-30\Downloads\apache-tomcat-7.0.79\bin"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#32"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CATALINA_BASE" value="C:\Users\ict-os-30\Downloads\apache-tomcat-7.0.79"/>
+    <property name="HUDSON_SERVER_COOKIE" value="b433b9b1d4fbc252"/>
+    <property name="JRE_HOME" value="C:\Program Files\Java\jdk1.8.0_112"/>
+    <property name="_EXECJAVA" value="start &quot;Tomcat&quot; &quot;C:\Program Files\Java\jdk1.8.0_112\bin\java.exe&quot;"/>
+    <property name="_RUNJAVA" value="&quot;C:\Program Files\Java\jdk1.8.0_112\bin\java.exe&quot;"/>
+    <property name="MAVEN_HOME" value="D:\setup\apache-maven-3.5.0"/>
+    <property name="SESSIONNAME" value="Console"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Users\ict-os-30\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.11.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="LOGGING_CONFIG" value="-Djava.util.logging.config.file=&quot;C:\Users\ict-os-30\Downloads\apache-tomcat-7.0.79\conf\logging.properties&quot;"/>
+    <property name="HOMEPATH" value="\Users\ict-os-30"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="32"/>
+    <property name="maven3.interceptor" value="C:\Users\ict-os-30\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.11.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_112\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;D:\setup\apache-maven-3.5.0/bin;C:\Program Files\Java\jdk1.8.0_112/bin;C:\Program Files\Java\jdk1.8.0_112/bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_112\bin;;D:\setup\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_112\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_112\bin;D:\setup\apache-maven-3.5.0\bin;C:\Program Files\Java\jdk1.8.0_112\bin;C:\Users\ict-os-30\AppData\Local\Programs\Git\cmd;."/>
+    <property name="HOMEDRIVE" value="C:"/>
+    <property name="POM_GROUPID" value="qlhsskcn"/>
+    <property name="POM_ARTIFACTID" value="qlhsskcn"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="JSSE_OPTS" value="&quot;-Djdk.tls.ephemeralDHKeySize=2048&quot;"/>
+    <property name="LOGGING_MANAGER" value="-Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager"/>
+    <property name="_RUNJDB" value="&quot;C:\Program Files\Java\jdk1.8.0_112\bin\jdb.exe&quot;"/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/TestQLHSSKCN/32/display/redirect"/>
+    <property name="MAINCLASS" value="org.apache.catalina.startup.Bootstrap"/>
+    <property name="JENKINS_HOME" value="C:\Users\ict-os-30\.jenkins"/>
+    <property name="BUILD_ID" value="32"/>
+    <property name="TEMP" value="C:\Users\ICT-OS~1\AppData\Local\Temp"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\bin"/>
+    <property name="M2" value="D:\setup\apache-maven-3.5.0\bin"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.variant" value=""/>
+    <property name="PROCESSOR_REVISION" value="3c03"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Users\ict-os-30\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="D:\setup\apache-maven-3.5.0/bin"/>
+    <property name="PROMPT" value="$P$G"/>
+    <property name="CURRENT_DIR" value="C:\Users\ict-os-30\Downloads\apache-tomcat-7.0.79\bin"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_112"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="USERPROFILE" value="C:\Users\ict-os-30"/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/TestQLHSSKCN/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\ict-os-30"/>
+    <property name="USERNAME" value="ict-os-30"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="USERDNSDOMAIN" value="VITM.COM"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="D:\AutomationTest\qlhsskcn"/>
+    <property name="maven.conf" value="D:\setup\apache-maven-3.5.0\conf"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="TMP" value="C:\Users\ICT-OS~1\AppData\Local\Temp"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="java.vm.version" value="25.112-b15"/>
+    <property name="java.class.path" value="C:\Users\ict-os-30\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.11.jar;D:\setup\apache-maven-3.5.0\boot\plexus-classworlds-2.5.2.jar;D:\setup\apache-maven-3.5.0/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="C:\Users\ict-os-30\.jenkins\workspace\TestQLHSSKCN"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.runtime.version" value="1.8.0_112-b15"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_112\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_112\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_112\jre\classes"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_112/bin"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="D:\setup\apache-maven-3.5.0"/>
+    <property name="JOB_BASE_NAME" value="TestQLHSSKCN"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="qlhsskcn"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase name="ktrabuttondong" classname="quanlyhogiadinh.NhanKhauThemTest" time="12.246"/>
+  <testcase name="ktranhapthieuthontinbatbuoc" classname="quanlyhogiadinh.NhanKhauThemTest" time="5.826"/>
+  <testcase name="ktrabotrongtruongbatbuoc" classname="quanlyhogiadinh.NhanKhauThemTest" time="13.04"/>
+  <testcase name="nhapsaicactruongkhongbatbuoc" classname="quanlyhogiadinh.NhanKhauThemTest" time="14.136"/>
+  <testcase name="themngaysinhsinhlonhonhoacbangnam1990" classname="quanlyhogiadinh.NhanKhauThemTest" time="8.175"/>
+  <testcase name="themNKNgaySinhNhoHonHoacBangNgayHientaiVaLonHonNam1900th2" classname="quanlyhogiadinh.NhanKhauThemTest" time="13.68"/>
+  <testcase name="themNKTreEmDuoi1TuoiNhapTenNguoiGiamHo" classname="quanlyhogiadinh.NhanKhauThemTest" time="10.48"/>
+  <testcase name="themNKNhapMoiQuanHeVoiNguoiGiamHo" classname="quanlyhogiadinh.NhanKhauThemTest" time="16.45"/>
+  <testcase name="btrongdantoc" classname="quanlyhogiadinh.NhanKhauThemTest" time="57.029"/>
+  <testcase name="btrongquoctich" classname="quanlyhogiadinh.NhanKhauThemTest" time="7.346"/>
+  <testcase name="btrongtongiao" classname="quanlyhogiadinh.NhanKhauThemTest" time="5.325"/>
+  <testcase name="khongchondiachihientilathuongchu" classname="quanlyhogiadinh.NhanKhauThemTest" time="18.878"/>
+  <testcase name="themoithanhcong" classname="quanlyhogiadinh.NhanKhauThemTest" time="39.437"/>
+  <testcase name="xemthongtinnhankhau" classname="quanlyhogiadinh.NhanKhauThemTest" time="6.958">
+    <failure message="Unable to locate element: .//*[@id=&apos;myTtCaNhanLabel&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.lAsTc2rh3K3c, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5404.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: fdbd9256-519c-440c-bb83-1c6599bc3017&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;myTtCaNhanLabel&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='myTtCaNhanLabel']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.lAsTc2rh3K3c, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5404.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: fdbd9256-519c-440c-bb83-1c6599bc3017
+*** Element info: {Using=xpath, value=.//*[@id='myTtCaNhanLabel']}
+	at quanlyhogiadinh.NhanKhauThemTest.xemthongtinnhankhau(NhanKhauThemTest.java:80)
+</failure>
+  </testcase>
+  <testcase name="suathongtinnhankhau" classname="quanlyhogiadinh.NhanKhauThemTest" time="6.28">
+    <failure message="Unable to locate element: .//*[@id=&apos;myTtCaNhanLabel&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.lAsTc2rh3K3c, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5404.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: fdbd9256-519c-440c-bb83-1c6599bc3017&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;myTtCaNhanLabel&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='myTtCaNhanLabel']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.lAsTc2rh3K3c, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5404.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: fdbd9256-519c-440c-bb83-1c6599bc3017
+*** Element info: {Using=xpath, value=.//*[@id='myTtCaNhanLabel']}
+	at quanlyhogiadinh.NhanKhauThemTest.suathongtinnhankhau(NhanKhauThemTest.java:84)
+</failure>
+  </testcase>
+  <testcase name="nhankhaudangduocxulylambome" classname="quanlyhogiadinh.NhanKhauThemTest" time="3.046">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div/div/div/div[2]/div/div/div/div/section/form/div[13]/div[2]/div/div/span/button[1]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.lAsTc2rh3K3c, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5404.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: fdbd9256-519c-440c-bb83-1c6599bc3017&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div/div/div/div[2]/div/div/div/div/section/form/div[13]/div[2]/div/div/span/button[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/div/div[2]/div/div/div/div/section/form/div[13]/div[2]/div/div/span/button[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.lAsTc2rh3K3c, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5404.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: fdbd9256-519c-440c-bb83-1c6599bc3017
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/div/div[2]/div/div/div/div/section/form/div[13]/div[2]/div/div/span/button[1]}
+	at quanlyhogiadinh.NhanKhauThemTest.nhankhaudangduocxulylambome(NhanKhauThemTest.java:88)
+</failure>
+  </testcase>
+  <testcase name="suathongtinthanhcong" classname="quanlyhogiadinh.NhanKhauThemTest" time="7.029">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div/div/div/div[2]/div/div/div/div/section/form/div[18]/button[1]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.lAsTc2rh3K3c, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5404.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: fdbd9256-519c-440c-bb83-1c6599bc3017&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div/div/div/div[2]/div/div/div/div/section/form/div[18]/button[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/div/div[2]/div/div/div/div/section/form/div[18]/button[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.lAsTc2rh3K3c, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=5404.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: fdbd9256-519c-440c-bb83-1c6599bc3017
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/div/div[2]/div/div/div/div/section/form/div[18]/button[1]}
+	at quanlyhogiadinh.NhanKhauThemTest.suathongtinthanhcong(NhanKhauThemTest.java:92)
+</failure>
+  </testcase>
+  <testcase name="xoathongtinnhankhau" classname="quanlyhogiadinh.NhanKhauThemTest" time="13.194"/>
+  <testcase name="themoinhankhau" classname="themdulieu.ThemDuLieuNhanKhauTest" time="28.643">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div[4]/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/form/div[1]/div[2]/input&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.LztceaQY0F3m, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3400.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 5e958257-b947-49e4-866b-3947b54f5afa&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div[4]/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/form/div[1]/div[2]/input}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/form/div[1]/div[2]/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.LztceaQY0F3m, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3400.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 5e958257-b947-49e4-866b-3947b54f5afa
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/form/div[1]/div[2]/input}
+	at themdulieu.ThemDuLieuNhanKhauTest.themoinhankhau(ThemDuLieuNhanKhauTest.java:29)
+</failure>
+    <system-out><![CDATA[Title: ??ng nh?p
+written
+]]></system-out>
+    <system-err><![CDATA[1504154891772	geckodriver	INFO	Listening on 127.0.0.1:20771
+1504154892314	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1504154893393	addons.manager	ERROR	staJartup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_vaScript error: resoIurce://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManageLr is not initialized
+LEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 < startup()@resource://gre/modules/AddonManager.jsm:837 < startup()@resource://gre/modules/AddonManager.jsm:3145 < observe()@resource://gre/components/addonManager.js:65
+1504154898075	Marionette	INFO	Listening on port 56527
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+Aug 31, 2017 11:48:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="themoinhankhau1" classname="themdulieu.ThemDuLieuNhanKhauTest" time="36.414"/>
+  <testcase name="themoinhankhau2" classname="themdulieu.ThemDuLieuNhanKhauTest" time="12.839">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div/div/div/div[2]/div/div/div/div[2]/section[1]/form/div[4]/div/address-picker-code/div/div[1]/div/ul/li/div[4]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.LztceaQY0F3m, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3400.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 5e958257-b947-49e4-866b-3947b54f5afa&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div/div/div/div[2]/div/div/div/div[2]/section[1]/form/div[4]/div/address-picker-code/div/div[1]/div/ul/li/div[4]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/div/div[2]/div/div/div/div[2]/section[1]/form/div[4]/div/address-picker-code/div/div[1]/div/ul/li/div[4]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.LztceaQY0F3m, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3400.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 5e958257-b947-49e4-866b-3947b54f5afa
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/div/div[2]/div/div/div/div[2]/section[1]/form/div[4]/div/address-picker-code/div/div[1]/div/ul/li/div[4]}
+	at themdulieu.ThemDuLieuNhanKhauTest.themoinhankhau2(ThemDuLieuNhanKhauTest.java:39)
+</failure>
+  </testcase>
+  <testcase name="themoinhankhau3" classname="themdulieu.ThemDuLieuNhanKhauTest" time="3.019">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div[4]/div[2]/div/div/div[3]/div[2]/div[2]/button[1]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.LztceaQY0F3m, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3400.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 5e958257-b947-49e4-866b-3947b54f5afa&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div[4]/div[2]/div/div/div[3]/div[2]/div[2]/button[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[2]/div[2]/button[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.LztceaQY0F3m, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3400.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 5e958257-b947-49e4-866b-3947b54f5afa
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[2]/div[2]/button[1]}
+	at themdulieu.ThemDuLieuNhanKhauTest.themoinhankhau3(ThemDuLieuNhanKhauTest.java:44)
+</failure>
+  </testcase>
+  <testcase name="themoinhankhau4" classname="themdulieu.ThemDuLieuNhanKhauTest" time="3.043">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div[4]/div[2]/div/div/div[3]/div[2]/div[2]/button[1]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.LztceaQY0F3m, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3400.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 5e958257-b947-49e4-866b-3947b54f5afa&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div[4]/div[2]/div/div/div[3]/div[2]/div[2]/button[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[2]/div[2]/button[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.LztceaQY0F3m, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=3400.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 5e958257-b947-49e4-866b-3947b54f5afa
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[2]/div[2]/button[1]}
+	at themdulieu.ThemDuLieuNhanKhauTest.themoinhankhau4(ThemDuLieuNhanKhauTest.java:49)
+</failure>
+  </testcase>
+  <testcase name="HoKhauThemMoi" classname="quanlyhogiadinh.HoKhauThemTest" time="22.764"/>
+  <testcase name="chuanhaptenchuho" classname="quanlyhogiadinh.HoKhauThemTest" time="9.209"/>
+  <testcase name="ktrabttaomoihokhau" classname="quanlyhogiadinh.HoKhauThemTest" time="5.017"/>
+  <testcase name="dodaiqua13kitu" classname="quanlyhogiadinh.HoKhauThemTest" time="12.526"/>
+  <testcase name="nhapMYTCNbangmotgiatribatki" classname="quanlyhogiadinh.HoKhauThemTest" time="14.55"/>
+  <testcase name="ktranhankhaudalachucuahokhac" classname="quanlyhogiadinh.HoKhauThemTest" time="29.478"/>
+  <testcase name="themoihokhauthanhcong" classname="quanlyhogiadinh.HoKhauThemTest" time="47.689"/>
+  <testcase name="ktrabtxemchitiet" classname="quanlyhogiadinh.HoKhauThemTest" time="15.913"/>
+  <testcase name="chuacodulieuthaydoi" classname="quanlyhogiadinh.HoKhauThemTest" time="15.374"/>
+  <testcase name="suathongtinchuho" classname="quanlyhogiadinh.HoKhauThemTest" time="9.025"/>
+  <testcase name="xoathongtinchuho" classname="quanlyhogiadinh.HoKhauThemTest" time="12.048"/>
+  <testcase name="xoahokhau" classname="quanlyhogiadinh.HoKhauThemTest" time="15.92"/>
+  <testcase name="themoihokhauthanhcong" classname="themdulieu.ThemDuLieuHoKhauTest" time="46.866"/>
+  <testcase name="themmoiNKVaoHkThanhCong" classname="themdulieu.ThemDuLieuHoKhauTest" time="20.705"/>
+  <testcase name="chuachonnhankhau" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhauTest" time="18.729">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div[4]/div[2]/div/div/div[2]/div[2]/div[2]/button[1]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div[4]/div[2]/div/div/div[2]/div[2]/div[2]/button[1]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[2]/div[2]/div[2]/button[1]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[2]/div[2]/div[2]/button[1]}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.chuachonnhankhau(NhanKhauThemVaoHoKhauTest.java:29)
+</failure>
+    <system-out><![CDATA[Title: H? s? qu?n lý s?c kh?e cá nhân
+written
+]]></system-out>
+    <system-err><![CDATA[1504155324765	geckodriver	INFO	Listening on 127.0.0.1:26031
+1504155325596	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1504155327151	addons.manager	ERROR	startup failed: [EJavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INxception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  locationITIALIZE: "JS D: AddonManagframe :: er is not initialized
+resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 < startup()@resource://gre/modules/AddonManager.jsm:837 < startup()@resource://gre/modules/AddonManager.jsm:3145 < observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+1504155333126	Marionette	INFO	Listening on port 57974
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+Aug 31, 2017 11:55:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+]]></system-err>
+  </testcase>
+  <testcase name="chuachonloaiquanhe" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhauTest" time="6.014">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.chuachonloaiquanhe(NhanKhauThemVaoHoKhauTest.java:33)
+</failure>
+    <system-err><![CDATA[JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+]]></system-err>
+  </testcase>
+  <testcase name="nhankhaudanglachucuahokhac" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhauTest" time="3.909">
+    <failure message="Unable to locate element: .//*[@id=&apos;field_loaiQh&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;field_loaiQh&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='field_loaiQh']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='field_loaiQh']}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.nhankhaudanglachucuahokhac(NhanKhauThemVaoHoKhauTest.java:37)
+</failure>
+  </testcase>
+  <testcase name="nhankhaudangcoquanhevoihokhac" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhauTest" time="5.066">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.nhankhaudangcoquanhevoihokhac(NhanKhauThemVaoHoKhauTest.java:41)
+</failure>
+  </testcase>
+  <testcase name="themMoiNkVaoHkThanhCong" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhauTest" time="3.073">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/div/form/div[2]/div/div[1]/div/span/button}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.themMoiNkVaoHkThanhCong(NhanKhauThemVaoHoKhauTest.java:45)
+</failure>
+    <system-err><![CDATA[JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+]]></system-err>
+  </testcase>
+  <testcase name="soanhnhankhau" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhauTest" time="2.936">
+    <failure message="Unable to locate element: .//*[@id=&apos;hokhau_dialog&apos;]/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[1]/a&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;hokhau_dialog&apos;]/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[1]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[1]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[1]/a}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.soanhnhankhau(NhanKhauThemVaoHoKhauTest.java:49)
+</failure>
+  </testcase>
+  <testcase name="nhanKhauNaydaTonTai" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhauTest" time="6.013">
+    <failure message="Unable to locate element: .//*[@id=&apos;hokhau_dialog&apos;]/div[10]/div[1]/div/div[1]/div/div/a/span[2]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;hokhau_dialog&apos;]/div[10]/div[1]/div/div[1]/div/div/a/span[2]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[1]/div/div/a/span[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[1]/div/div/a/span[2]}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.nhanKhauNaydaTonTai(NhanKhauThemVaoHoKhauTest.java:53)
+</failure>
+  </testcase>
+  <testcase name="suathongtinnhankhau" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhauTest" time="3.046">
+    <failure message="Unable to locate element: .//*[@id=&apos;hokhau_dialog&apos;]/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[5]/a[1]/i&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;hokhau_dialog&apos;]/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[5]/a[1]/i}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[5]/a[1]/i
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[5]/a[1]/i}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.suathongtinnhankhau(NhanKhauThemVaoHoKhauTest.java:57)
+</failure>
+  </testcase>
+  <testcase name="xoanhankhau" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhauTest" time="3.038">
+    <failure message="Unable to locate element: .//*[@id=&apos;hokhau_dialog&apos;]/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[5]/a[2]/i&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;hokhau_dialog&apos;]/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[5]/a[2]/i}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[5]/a[2]/i
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.PClv3qtCJbpD, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6668.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 4137a4de-af18-4b86-b935-cafda56dd62b
+*** Element info: {Using=xpath, value=.//*[@id='hokhau_dialog']/div[10]/div[1]/div/div[2]/table/tbody/tr[2]/td[5]/a[2]/i}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhauTest.xoanhankhau(NhanKhauThemVaoHoKhauTest.java:61)
+</failure>
+  </testcase>
+  <testcase name="nhanKhauDangLaChuHo" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test" time="25.974">
+    <failure message="Fale khi click được vào button mã hộ gia đình expected [false] but found [true]" type="java.lang.AssertionError">java.lang.AssertionError: Fale khi click được vào button mã hộ gia đình expected [false] but found [true]
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test.nhanKhauDangLaChuHo(NhanKhauThemVaoHoKhau2Test.java:31)
+</failure>
+    <system-out><![CDATA[Title: H? s? qu?n lý s?c kh?e cá nhân
+written
+Fale khi click ???c vào button mã h? gia ?ình
+]]></system-out>
+    <system-err><![CDATA[1504155397411	geckodriver	INFO	Listening on 127.0.0.1:48687
+1504155398204	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1416: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+1504155416462	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  locationJavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 < startup()@resource://gre/modules/AddonManager.jsm:837 < startup()@resource://gre/modules/AddonManager.jsm:3145 < observe()@resource://gre/components/addonManager.js:65
+NOT_INITIALIZED: AddonManager is not initialized
+1504155427119	Marionette	INFO	Listening on port 58151
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+Aug 31, 2017 11:57:08 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+]]></system-err>
+  </testcase>
+  <testcase name="xoa" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test" time="4.064">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div[4]/div[1]/div/ul/li[3]/ul/li[2]/a&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.7zzsVYxKB0KK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6908.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 42196c5e-9c05-4aa2-8e48-33a5b0d882ee&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div[4]/div[1]/div/ul/li[3]/ul/li[2]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[1]/div/ul/li[3]/ul/li[2]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.7zzsVYxKB0KK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6908.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 42196c5e-9c05-4aa2-8e48-33a5b0d882ee
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[1]/div/ul/li[3]/ul/li[2]/a}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test.xoa(NhanKhauThemVaoHoKhau2Test.java:35)
+</failure>
+  </testcase>
+  <testcase name="chuachonnhankhau" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test" time="4.862">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div[4]/div[1]/div/ul/li[3]/ul/li[1]/a&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.7zzsVYxKB0KK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6908.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 42196c5e-9c05-4aa2-8e48-33a5b0d882ee&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div[4]/div[1]/div/ul/li[3]/ul/li[1]/a}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[1]/div/ul/li[3]/ul/li[1]/a
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.7zzsVYxKB0KK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6908.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 42196c5e-9c05-4aa2-8e48-33a5b0d882ee
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[1]/div/ul/li[3]/ul/li[1]/a}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test.chuachonnhankhau(NhanKhauThemVaoHoKhau2Test.java:40)
+</failure>
+  </testcase>
+  <testcase name="nhanKhauKhongLaChuHo" classname="quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test" time="9.412">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div/div/form/div[2]/div[4]/div/div/table/tbody/tr/td[6]/div/a/i&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.7zzsVYxKB0KK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6908.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 42196c5e-9c05-4aa2-8e48-33a5b0d882ee&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div/div/form/div[2]/div[4]/div/div/table/tbody/tr/td[6]/div/a/i}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div/div/form/div[2]/div[4]/div/div/table/tbody/tr/td[6]/div/a/i
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.7zzsVYxKB0KK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6908.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 42196c5e-9c05-4aa2-8e48-33a5b0d882ee
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div/div/form/div[2]/div[4]/div/div/table/tbody/tr/td[6]/div/a/i}
+	at quanlyhogiadinh.NhanKhauThemVaoHoKhau2Test.nhanKhauKhongLaChuHo(NhanKhauThemVaoHoKhau2Test.java:45)
+</failure>
+    <system-err><![CDATA[JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+]]></system-err>
+  </testcase>
+  <testcase name="chuaCoDuLieuThayDoi" classname="quanlyhososuckhoe.KhamLapThemTest" time="3.832">
+    <failure message="Unable to locate element: .//*[@id=&apos;body&apos;]/div[1]/div[4]/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/form/div[1]/div[1]/input&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.Zqt8CZdfYny6, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6292.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 6c5d7d19-7761-4ac5-8690-717173c0ae40&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;body&apos;]/div[1]/div[4]/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/form/div[1]/div[1]/input}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/form/div[1]/div[1]/input
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.Zqt8CZdfYny6, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6292.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 6c5d7d19-7761-4ac5-8690-717173c0ae40
+*** Element info: {Using=xpath, value=.//*[@id='body']/div[1]/div[4]/div[2]/div/div/div[3]/div[1]/div/div/div/div/div/div[1]/form/div[1]/div[1]/input}
+	at quanlyhososuckhoe.KhamLapThemTest.chuaCoDuLieuThayDoi(KhamLapThemTest.java:30)
+</failure>
+    <system-out><![CDATA[Title: H? s? qu?n lý s?c kh?e cá nhân
+written
+]]></system-out>
+    <system-err><![CDATA[JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+1504155487620	geckodriver	INFO	Listening on 127.0.0.1:47935
+1504155488161	geckodriver::marionette	INFO	Starting browser \\?\C:\Program Files\Mozilla Firefox\firefox.exe with args ["-marionette"]
+1504155495793	addons.manager	ERROR	startup failed: [Exception... "Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]"  nsresult: "0x80070057 (NS_ERROR_ILLEGAL_VALUE)"  location: "JS frame :: resource://gre/modules/FileUtils.jsm :: FileUtils_getDir :: line 70"  data: no] Stack trace: FileUtils_getDir()@resource://gre/modules/FileUtils.jsm:70 < FileUtils_getFile()@resource://gre/modules/FileUtils.jsm:42 < validateBlocklist()@resource://gre/modules/AddonManager.jsm:674 < startup()@resource://gre/modules/AddonManager.jsm:837 < startup()@resource://gre/modules/AddonManager.jsm:3145 < observe()@resource://gre/components/addonManager.js:65
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1657: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+1504155502385	Marionette	INFO	Listening on port 58533
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 2572: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+Aug 31, 2017 11:58:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+JavaScript error: resource://gre/modules/AddonManager.jsm, line 1416: NS_ERROR_NOT_INITIALIZED: AddonManager is not initialized
+JavaScript error: resource://gre/modules/FileUtils.jsm, line 70: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIFile.create]
+]]></system-err>
+  </testcase>
+  <testcase name="checkMau" classname="quanlyhososuckhoe.KhamLapThemTest" time="21.089">
+    <failure message="Unable to locate element: .//*[@id=&apos;field_ngayKham&apos;]&#10;For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;&#10;System info: host: &apos;ICT-OS-XUYENMT&apos;, ip: &apos;10.61.187.121&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_112&apos;&#10;Driver info: org.openqa.selenium.firefox.FirefoxDriver&#10;Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.Zqt8CZdfYny6, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6292.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]&#10;Session ID: 6c5d7d19-7761-4ac5-8690-717173c0ae40&#10;*** Element info: {Using=xpath, value=.//*[@id=&apos;field_ngayKham&apos;]}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: .//*[@id='field_ngayKham']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'ICT-OS-XUYENMT', ip: '10.61.187.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_112'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\ICT-OS~1\AppData\Local\Temp\rust_mozprofile.Zqt8CZdfYny6, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=6.1, moz:processID=6292.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: 6c5d7d19-7761-4ac5-8690-717173c0ae40
+*** Element info: {Using=xpath, value=.//*[@id='field_ngayKham']}
+	at quanlyhososuckhoe.KhamLapThemTest.checkMau(KhamLapThemTest.java:35)
+</failure>
+    <system-err><![CDATA[JavaScript error: resource://app/modules/WindowsJumpLists.jsm, line 403: NS_ERROR_FILE_NOT_FOUND: Component returned failure code: 0x80520012 (NS_ERROR_FILE_NOT_FOUND) [nsIJumpListShortcut.app]
+]]></system-err>
+  </testcase>
+  <testcase name="ngayKhamkhongDuocLonHonNgayhienTai" classname="quanlyhososuckhoe.KhamLapThemTest" time="58.577"/>
+  <testcase name="ngayHenKhamKhongDuocNhoHonNgayKham" classname="quanlyhososuckhoe.KhamLapThemTest" time="18.336"/>
+  <testcase name="khamLapThanhCong" classname="quanlyhososuckhoe.KhamLapThemTest" time="25.309"/>
+  <testcase name="soSanhKhamLap" classname="quanlyhososuckhoe.KhamLapThemTest" time="34.927"/>
+  <testcase name="boTrongngaykham" classname="quanlyhososuckhoe.LichSuThemTest" time="21.217"/>
+  <testcase name="boTrongNgayBatDau" classname="quanlyhososuckhoe.LichSuThemTest" time="10.434"/>
+  <testcase name="boTrongNgayKetThuc" classname="quanlyhososuckhoe.LichSuThemTest" time="7.098"/>
+  <testcase name="ngayKhamKhongDuocNhoHonNgayBatDau" classname="quanlyhososuckhoe.LichSuThemTest" time="17.883"/>
+  <testcase name="ngayKetThucKhongDuocNhoHonNgayBatDau" classname="quanlyhososuckhoe.LichSuThemTest" time="18.497"/>
+  <testcase name="ngayKhamKhongDuocLonHonNgayKetThuc" classname="quanlyhososuckhoe.LichSuThemTest" time="14.53"/>
+  <testcase name="ngayKhamKhongDuocLonHonNgayHientai" classname="quanlyhososuckhoe.LichSuThemTest" time="14.818"/>
+  <testcase name="ngayTaiKhamLonHonNgayKham" classname="quanlyhososuckhoe.LichSuThemTest" time="42.26"/>
+  <testcase name="themMoiLichSuThanhCong" classname="quanlyhososuckhoe.LichSuThemTest" time="29.571"/>
+  <testcase name="tenDichvuKongDuocDeTrong" classname="quanlyhososuckhoe.LichSuThemTest" time="9.988"/>
+  <testcase name="ketQuaKhongDuocDetrong" classname="quanlyhososuckhoe.LichSuThemTest" time="6.486"/>
+  <testcase name="tenThuocKhongDuocDeTrong" classname="quanlyhososuckhoe.LichSuThemTest" time="6.363"/>
+  <testcase name="soLuongKhongDuocDetrong" classname="quanlyhososuckhoe.LichSuThemTest" time="8.686"/>
+  <testcase name="soLuongPhaiNhapDangSo" classname="quanlyhososuckhoe.LichSuThemTest" time="11.952"/>
+  <testcase name="themmoiTCMuiTiemKhongDuocBotrong" classname="quanlyhososuckhoe.TiemChungThemTest" time="25.566"/>
+  <testcase name="themmoiTCNgayHenTiemPhaiLonHonHoacbangNgayNguaChung" classname="quanlyhososuckhoe.TiemChungThemTest" time="20.209"/>
+  <testcase name="themmoiTCThanhCong" classname="quanlyhososuckhoe.TiemChungThemTest" time="51.288"/>
+  <testcase name="themmoiTCVacXinMuiTiemDaTonTai" classname="quanlyhososuckhoe.TiemChungThemTest" time="14.678"/>
+  <testcase name="checkMau" classname="quanlyhososuckhoe.TiemChungThemTest" time="12.096"/>
+</testsuite>
