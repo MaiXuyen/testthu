@@ -41,7 +41,7 @@ public class Login {
 		driver.findElement(LoginObject.UserName()).clear();
 		driver.findElement(LoginObject.Pass()).sendKeys(ExeclUnitl.getData(4, 3));
 		driver.findElement(LoginObject.BTLogin()).click();
-
+		//commet login
 		Thread.sleep(3000);
 		WebElement botrongTDN = driver.findElement(LoginObject.Thieutaikhoandangnhap1());
 		String getbotrongTDN = botrongTDN.getText();
